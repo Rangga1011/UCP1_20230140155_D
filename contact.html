@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak Kami</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showAlert() {
+      alert("Pesan anda terkirim. Terima kasih telah menghubungi Ruangguru!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Kontak Pendaftaran</h1> <!-- Added text here -->
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="features.html">Fitur</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Formulir Pendaftaran User</h2>
+    <form onsubmit="showAlert(); return false;">
+      <label>Nama:<br><input type="text" required></label><br><br>
+      <label>Email:<br><input type="email" required></label><br><br>
+      <label>Minat Belajar:<br><input type="text" required></label><br><br>
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+</body>
+</html>

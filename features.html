@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitur Unggulan Ruangguru</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #E0F7FA, #E1F5FE);
+      margin: 0;
+    }
+    header {
+      background-color: #0288D1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .feature {
+      width: 300px;
+      margin: 10px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 10px;
+      text-align: center;
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    video {
+      display: block;
+      margin: 20px auto;
+      border: 3px solid #0288D1;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fitur Unggulan</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="features.html">Fitur</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+  <section class="features">
+    <div class="feature">
+      <img src="liveclass.jpg" alt="Live Class">
+      <p>Belajar langsung dengan tutor secara online.</p>
+    </div>
+    <div class="feature">
+      <img src="latihansoal.jpg" alt="Latihan Soal">
+      <p>Ratusan soal latihan interaktif untuk setiap topik.</p>
+    </div>
+    <div class="feature">
+      <img src="materi.jpg" alt="Video Materi">
+      <p>Video materi eksklusif dari guru terbaik.</p>
+    </div>
+  </section>
+  <video width="400" controls>
+    <source src="VideoMateri.mp4" type="video/mp4">
+  </video>
+</body>
+</html>

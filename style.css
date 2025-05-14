@@ -1,0 +1,253 @@
+/* Umum */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fdfdfd;
+}
+
+/* Bagian Atas: Logo dan Judul */
+.top-bar {
+  display: flex;
+  align-items: center;
+  background-color: #01579B;
+  color: white;
+  padding: 10px 20px;
+  justify-content: start;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.top-bar img {
+  height: 40px;
+  margin-right: 15px;
+}
+
+.brand-text {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand-text span {
+  color: #FFD700; /* Warna emas untuk "Guru" */
+  font-style: italic;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Navigasi */
+nav {
+  background-color: #007bff;
+  padding: 15px 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  padding: 40px 20px;
+}
+
+.hero-img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: #007bff;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-top: 50px;
+  color: #333;
+}
+
+/* Popup Styling */
+#promoPopup {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.popup-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.popup-content button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* About Page Styling */
+.about {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  color: #007bff;
+  font-size: 32px;
+}
+
+.about h3 {
+  color: #007bff;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style-type: square;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table td {
+  font-size: 16px;
+}
+
+/* Contact Page Styling */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00b4d8;
+}
